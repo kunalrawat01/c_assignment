@@ -1,57 +1,35 @@
-C Assignment (Functions and Header Files)
+# 💻 C Programming Assignment – Functions and Header Files
 
-Files included
-1. mainmenu.c        – Main program (menu to use number & array functions)
-2. numtils.c       – Number-related function implementations
-3. numtils.h       – Declarations for number functions
-4. arraytools.c    – Array-related function implementations
-5. arraytools.h    – Declarations for array functions
+### 👨‍🎓 Author  
+**Kunal Rawat**  
+**GLA University, Mathura**
 
-How to compile
-Open Command Prompt or Git Bash in the project folder and run:
-gcc mainmenu.c numutils.c -o numprog
-gcc arraymain.c arraytools.c -o arrayprog
+---
 
+## 📘 Overview
 
-How to run
-After compiling, run:
-./numprog
-./arrayprog
+This project demonstrates how to organize a C program using **functions** and **header files**.  
+It is divided into two main modules — **Number Utilities** and **Array Tools** — each compiled and executed separately.
 
+---
 
-Program features
-1) Number Functions (choose option 1 in menu)
-   - Check Armstrong number
-   - Check Adams number
-   - Check Prime Palindrome number
+## 📂 Project Structure
 
-2) Array Functions (choose option 2 in menu)
-   - Input an array
-   - Display array
-   - Find index of max and min
-   - Compute average
-   - Reverse array
-   - Sort array (ascending)
-   - Linear search for a value
+| File Name | Description |
+|------------|-------------|
+| `mainmenu.c` | Main program providing menu options for number and array functions |
+| `numutils.c` | Implements number-related functions |
+| `numutils.h` | Contains function declarations for number operations |
+| `arraytools.c` | Implements array-related functions |
+| `arraytools.h` | Contains function declarations for array operations |
 
-Example usage
-========== MAIN MENU ==========
-1. Number Functions
-2. Array Functions
-3. Exit
-Enter your choice: 1
+---
 
------ NUMBER FUNCTIONS -----
-1. Check Armstrong Number
-2. Check Adams Number
-3. Check Prime Palindrome Number
-4. Back to Main Menu
-Enter your choice: 1
-Enter a number: 153
-153 is an Armstrong number.
- 
-Author:
-Aman Chaudhary
-GLA University,Mathura
+## ⚙️ Compilation Instructions (Windows)
 
+Before starting, make sure **GCC (MinGW or TDM-GCC)** is installed and added to your system PATH.  
+Open **Command Prompt** or **PowerShell** in the project folder and run the following commands.
 
+### 🧩 Compile Number Functions Program
+```bash
+gcc mainmenu.c numutils.c -o numprog.exe
